@@ -24,5 +24,4 @@ if(mongoose.model.users) {
 }
 
 userAuthModel = mongoose.model('users',userAuthSchema) ;
-
 module.exports = userAuthModel ;
